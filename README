@@ -1,0 +1,16 @@
+//Assuming expression given in product of sum form
+
+//Input:
+//first integer input as number of clauses, second number of variables
+//Then continuous inputs for each variable. 1 if variable is a, -1 is abar, and 0 if variable not present in clause
+//Example:
+//(a+b)(abar+c)
+//2 3 --no. of clauses is 2    no. of variables is 3
+//1 -1 --a
+//1 0 --b
+//0 1 --c
+
+//Output SAT or UNSAT
+//if SAT then it tells whether the variable should be 1 or 0 (-1 means 0) for solution
+//else UNSAT
+
